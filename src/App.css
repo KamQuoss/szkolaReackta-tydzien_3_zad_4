@@ -1,0 +1,92 @@
+.App {
+  background-color: #f7f1e3;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  width: auto;
+  height: calc(100vh - 64px);
+  padding: 32px;
+}
+
+.card {
+  width: 345px;
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  font-size: 0.875rem;
+  line-height: 1.43;
+}
+
+.header-title {
+  flex: 1 1 auto;
+}
+
+.card-content {
+  padding: 16px;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.card-actions {
+  padding: 8px;
+  display: flex;
+}
+
+.card-expand {
+  padding: 16px;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.card-expand--show {
+  height: auto;
+}
+.card-expand--hide {
+  height: 0;
+  display: none;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+  background-color: tomato;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  flex: 0 0 auto;
+  font-size: 1.25rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: rgba(0, 0, 0, 0.54);
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.button.button--last-item {
+  margin-left: auto;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
