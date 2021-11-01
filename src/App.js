@@ -1,11 +1,12 @@
+import React from 'react';
 import './App.css';
-
-import paella from './assets/paella.jpg';
 import { cardInfo } from './assets/card-data';
+import { data as employees } from './assets/employees-data';
+import paella from './assets/paella.jpg';
 import Card from './components/Card';
-import { Menu, MenuLink } from './components/Menu';
 import Employees from './components/Employees/Employees';
-import { data as employees} from './assets/employees-data'
+import { Menu, MenuLink } from './components/Menu';
+
 
 function App() {
   return (
