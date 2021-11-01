@@ -1,6 +1,7 @@
 import './App.css';
 
-import paella from './assets/paella.jpg'
+import paella from './assets/paella.jpg';
+import { cardInfo } from './assets/card-data';
 import Card from './components/Card';
 import { Menu, MenuLink } from './components/Menu';
 
@@ -13,7 +14,7 @@ function App() {
         <MenuLink to="/contact" isActive>Contact</MenuLink>
         <MenuLink to="/posts">Posts</MenuLink>
       </Menu>
-      <Card image={paella} />
+      <Card image={paella} data={cardInfo} />
     </div>
   );
 }

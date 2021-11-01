@@ -2,8 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEllipsisV } from '@fortawesome/free-solid-svg-icons'
 
-import Avatar from "./Avarar";
-import Button from "./Button";
+import Avatar from "../misc/Avarar";
+import Button from "../misc/Button";
 
 const CardHeader = ({title, date, name}) => {
     return <div className='card-header'>

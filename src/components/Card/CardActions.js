@@ -4,7 +4,7 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import { faShareAlt } from '@fortawesome/free-solid-svg-icons'
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
-import Button from "./Button";
+import Button from "../misc/Button";
 
 const CardActions = ({onClick, display}) => {
     let styles = {
