@@ -1,18 +1,11 @@
 import React from "react";
+import TableRow from "./TableRow";
 
 const Employees = ({ data }) => {
-    const handleClick = () => {
-        console.log('Employe cklicked')
-    }
     return (
         <table>
             <tbody>
-                {data.map((employe, i) => (
-                    <tr key={`employe-${i}`}>
-                        <td onClick={handleClick}>{employe.name}</td>
-                        <td>...</td>
-                    </tr>
-                ))}
+                {data.map((employe, i) => <TableRow employe={employe} i = {i}/>)}
             </tbody>
         </table>
     )
