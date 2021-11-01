@@ -4,6 +4,8 @@ import paella from './assets/paella.jpg';
 import { cardInfo } from './assets/card-data';
 import Card from './components/Card';
 import { Menu, MenuLink } from './components/Menu';
+import Employees from './components/Employees/Employees';
+import { data as employees} from './assets/employees-data'
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <MenuLink to="/posts">Posts</MenuLink>
       </Menu>
       <Card image={paella} data={cardInfo} />
+      <Employees data={employees} />
     </div>
   );
 }

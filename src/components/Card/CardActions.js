@@ -13,7 +13,7 @@ const CardActions = ({onClick, display}) => {
     return <div className='card-actions'>
         <Button><FontAwesomeIcon icon={faHeart} /></Button>
         <Button><FontAwesomeIcon icon={faShareAlt} /></Button>
-        <Button isLast={true} onClick={onClick}><FontAwesomeIcon icon={faArrowDown} style={styles} /></Button>
+        <Button onClick={onClick}><FontAwesomeIcon icon={faArrowDown} style={styles} /></Button>
     </div>
 }
 

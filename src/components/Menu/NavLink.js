@@ -3,16 +3,16 @@ import React from "react";
 const styles = {
     display: 'block',
     padding: '8px 16px',
-    'text-transform': 'uppercase',
+    textTransform: 'uppercase',
     background: 'lightgray',
-    'border-bottom': '1px solid gray'
+    borderBottom: '1px solid gray'
 }
 
 const linkStyles = {
-    'text-decoration': 'none',
+    textDecoration: 'none',
 }
 const activeLinkStyles = {
-    'text-decoration': 'none',
+    textDecoration: 'none',
     color: 'red'
 }
 

@@ -83,7 +83,7 @@
   flex: 0 0 auto;
 }
 
-.button.button--last-item {
+.button:last-of-type {
   margin-left: auto;
 }
 
